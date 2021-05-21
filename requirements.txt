@@ -1,5 +1,5 @@
 Django
 djangorestframework
 psycopg2
-Pillo
+Pillow
 flake8
