@@ -54,6 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
 ROOT_URLCONF = 'app.urls'
 
 TEMPLATES = [
@@ -133,5 +134,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/vol/web/static'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/vol/web/media'
 
 AUTH_USER_MODEL = 'core.User'
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
